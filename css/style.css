@@ -75,8 +75,8 @@
 /*O‘zgaruvchilar---Natija: O‘zgaruvchilar (variables) yaratildi va ularni boshqa joyda ishlatish mumkin.*/
 :root {
     --gold: #ffffff;
-    --purple: #6f16af;
-    --bg-overlay: linear-gradient(45deg, rgba(75,0,130,0.9) 0%, rgba(0,0,0,0.7) 100%);
+    --purple: #000000;
+    --bg-overlay: linear-gradient(45deg, rgba(198, 34, 34, 0.587) 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 /*Umumiy uslub---: Sahifa orqa foni surishmaydi va shrift Comic Neue bo‘ladi.*/
@@ -84,7 +84,7 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     color: rgb(79, 138, 194);
-    background: var(--bg-overlay), url("https://raycock.xyz/staticfiles/img/p.jpg");
+    background: var(--bg-overlay), url("img/ppp.jpg");
     background-size: cover;
     background-attachment: fixed;
     min-height: 200vh;
@@ -96,7 +96,7 @@ body {
     top: 0;
     width: 100%;
     padding: 1.5rem;
-    background: rgba(0,0,0,0.8);
+    background: rgb(177, 137, 35);
     backdrop-filter: blur(10px);
     z-index: 1000;
     display: flex;
@@ -171,7 +171,7 @@ h1 {
     font-size: 1.2rem; /* Matn kattaligi */
     font-weight: 500; /* Qalinligi */
     color: #ffffff; /* Oq rangdagi matn */
-    background: linear-gradient(135deg, #9900ff, #3764d6a3); /* Gradient fon */
+    background: linear-gradient(135deg, #c1bcc5, #a3a9b6a3); /* Gradient fon */
     padding: 50px; /* Ichki bo‘shliq */
     border-radius: 70px; /* Burchaklarni yumaloqlash */
     text-align: center; /* Matnni tekislash */
@@ -269,7 +269,7 @@ h1 {
 }
 
 .copy-button:hover {
-    background: var(--purple);
+    background: var(--gold);
     color: var(--gold);
 }
 
@@ -355,9 +355,9 @@ h1 {
     align-items: center;
     gap: 25px;
     padding: 25px 45px;
-    background: #646fc2;
+    background: #c4392f00;
     border-radius: 25px;
-    box-shadow: 0 4px 20px rgb(255, 255, 255);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0);
     transition: all 0.3s ease;
     text-decoration: none;
     border: 1px solid #ffc400;
@@ -382,7 +382,7 @@ h1 {
 
 /* Footer Styling */
 .site-footer {
-    background: #2c3e5000;
+    background: #26ac3400;
     padding: 30px 0;
     margin-top: 60px;
 }
